@@ -6,10 +6,17 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-image: url("Images/Folio/website%20folio%20photos/_MG_0020.jpg");
+    background-size: cover; /* Ensures the image covers the entire header */
+    background-position: center; /* Centers the image in the header */
     color: #fff;
     padding: 10px 0;
     text-align: center;
+}
+
+header h1,
+header h2 {
+    color: #fff; /* Explicitly sets the font color of h1 and h2 elements to white */
 }
 
 nav ul {
